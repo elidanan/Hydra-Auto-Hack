@@ -66,7 +66,7 @@ def hydra(ip, service, port):
             login.append(Login(ip,port,service,user,password))
             all_logins.append(login)
             print("Login for " + service + " on port " + port + " in IP:" + ip + ":\nUser: " + user + " Password: " + password)  
-            return all_logins
+     return all_logins
 
 def add_to_pass_log(login):
     """create file
