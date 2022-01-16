@@ -1,10 +1,10 @@
 # Hydra-Auto-Hack
 
-## A python script that will use hydra to auto login to ssh, ftp, and telnet
+## A python script that will use hydra to get user and password to login to ssh, ftp, and telnet
 
 ### Description
 
-This python script was created to use when first entering a network to try and login to any computer in the network with ssh, ftp, or telnet open. It can be used for pentesting and while playing CTF's. This script was created running against a docker network for testing.
+This python script was created to use when first entering a network to try and get user and password to login to any computer in the network with ssh, ftp, or telnet open. It can be used for pentesting and while playing CTF's. This script was created running against a docker network for testing purposes.
 
 ### ProofOfConcept
 
@@ -17,6 +17,7 @@ This python script was created to use when first entering a network to try and l
 - Download python script 
 - Change variables in lines 19-22 in main.py for specific configuration
 - Run script
+
 
 
 
